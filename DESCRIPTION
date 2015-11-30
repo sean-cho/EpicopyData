@@ -1,0 +1,16 @@
+Package: EpicopyData
+Type: Package
+Title: Epicopy datasets
+Version: 1.0.1
+Date: 2015-11-02
+Authors@R: c(
+    person('Sean, Soonweng', 'Cho', email = 'sean.cho@jhmi.edu', role = c('aut','cre')),
+    person('Hyunseok', 'Kim', email = 'hkim190@jhmi.edu', role = c('aut')),
+    person('Leslie', 'Cope', email = 'lcope1@jhmi.edu', role = c('aut')))
+Maintainer: Sean Cho <sean.cho@jhmi.edu>
+Description: Package holding test data and normal data for Epicopy.
+License: GPL3
+Suggests: 
+    Epicopy
+Imports: 
+    minfi
