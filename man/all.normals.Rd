@@ -8,9 +8,12 @@ all.normals: RGChannelSet containing normal information for Epicopy.
 An RGChannelSet holding data for 193 normal samples for Epicopy.
     Users are advised against accessing it manually.
 }
+\value{
+RGChannelSet with complete intensity and phenoData for 193 samples.
+}
 \usage{data("all.normals")}
 \format{
-An RGChannelSet containing normal sample signal intensities for normalization.
+RGChannelSet
 }
 \source{
 Raw .idat data files were downloaded from the TCGA breast, 
